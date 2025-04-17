@@ -1,4 +1,4 @@
-# rainbow-project
+# starter-project
 The project demonstrates how I use html, css and javascript
 
 ## 17-04-2025
