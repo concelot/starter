@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Create Account</title>
+</head>
+<body>
+    <div class="flex justify-center items-center min-h-screen bg-gray-200">
+        
+        <!-- Card Component -->
+        <div class="max-w-sm w-full p-6 bg-white rounded-lg shadow-xl">
+                <h1 class="text-3xl font-bold text-center">Create Account</h1>
+
+                <div class="mt-5 space-y-2">
+                    <p class="text-gray-600">First Name</p>
+                    <input type="text" class="w-full border border-gray-400 py-2 px-3 rounded-sm" name="email" id="email">
+                    <p class="text-gray-600">Last Name</p>
+                    <input type="text" class="w-full border border-gray-400 py-2 px-3 rounded-sm" name="lastName" id="lastName">
+                </div>
+                <div class="mt-5 space-y-2">
+                    
+                    <!-- Card Columns -->
+                     <div class="sm:flex">
+                        <div class="flex-1 text-center px-5 py-5 m-2 rounded-lg border border-gray-400">
+                            <img src="assets//Humaaans - Standing_Male.png" alt="Gender Male" >
+                            <input type="radio" name="gender" id="male" value="male"><br>
+                            <label for="male">Male</label>
+                        </div>
+                         
+                         <div class="flex-1 text-center px-5 py-5 m-2 rounded-lg border border-gray-400">
+                             <img src="assets//Humaaans - Standing_Female.png" alt="Gender Female" >
+                             <input type="radio" name="gender" id="female" value="female"><br>
+                            <label for="male">Female</label>
+                         </div>
+                     </div>
+                    
+                    <br>
+
+                    <label for="dob" class="text-gray-600">Date of birth: </label><br>
+                    <input type="date" class="w-full border border-gray-400 py-2 px-3 rounded-sm" name="dob" id="dob">
+
+                    <p class="text-gray-600">Email: </p>
+                    <input type="email" class="w-full border border-gray-400 py-2 px-3 rounded-sm" name="email" id="email">
+
+                    <p class="text-gray-600">Password: </p>
+                    <input type="password" class="w-full border border-gray-400 py-2 px-3 rounded-sm" name="password" id="password">
+                    <p class="text-gray-600">Confirm Password: </p>
+                    <input type="password" class="w-full border border-gray-400 py-2 px-3 rounded-sm" name="confirmPassword" id="confirmPassword">
+                </div>
+                
+                <button class="mt-5 mb-5 w-full bg-emerald-500 text-white font-semibold py-2 px-3 rounded-sm">Create Account</button>
+        </div>
+
+    </div>
+</body>
+</html>
